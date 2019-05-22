@@ -75,8 +75,8 @@ import Link from '../packages/link/index.js';
 import Divider from '../packages/divider/index.js';
 import Image from '../packages/image/index.js';
 import Calendar from '../packages/calendar/index.js';
-import locale from 'element-ui/src/locale';
-import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
+import locale from 'kpl-ui/src/locale';
+import CollapseTransition from 'kpl-ui/src/transitions/collapse-transition';
 
 const components = [
   Pagination,

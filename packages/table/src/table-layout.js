@@ -1,4 +1,4 @@
-import scrollbarWidth from 'element-ui/src/utils/scrollbar-width';
+import scrollbarWidth from 'kpl-ui/src/utils/scrollbar-width';
 import Vue from 'vue';
 
 class TableLayout {

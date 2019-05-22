@@ -55,10 +55,10 @@
 </template>
 
 <script>
-import Locale from 'element-ui/src/mixins/locale';
-import fecha from 'element-ui/src/utils/date';
+import Locale from 'kpl-ui/src/mixins/locale';
+import fecha from 'kpl-ui/src/utils/date';
 import DateTable from './date-table';
-import { validateRangeInOneMonth } from 'element-ui/src/utils/date-util';
+import { validateRangeInOneMonth } from 'kpl-ui/src/utils/date-util';
 
 const validTypes = ['prev-month', 'today', 'next-month'];
 const oneDay = 86400000;

@@ -17,10 +17,10 @@ const webpackConfig = {
   mode: process.env.NODE_ENV,
   entry: isProd ? {
     docs: './examples/entry.js',
-    'element-ui': './src/index.js'
+    'kpl-ui': './src/index.js'
   } : (isPlay ? './examples/play.js' : './examples/entry.js'),
   output: {
-    path: path.resolve(process.cwd(), './examples/element-ui/'),
+    path: path.resolve(process.cwd(), './examples/kpl-ui/'),
     publicPath: process.env.CI_ENV || '',
     filename: '[name].[hash:7].js',
     chunkFilename: isProd ? '[name].[hash:7].js' : '[name].js'

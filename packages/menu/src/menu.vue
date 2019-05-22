@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'element-ui/src/mixins/emitter';
-  import Migrating from 'element-ui/src/mixins/migrating';
-  import Menubar from 'element-ui/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'element-ui/src/utils/dom';
+  import emitter from 'kpl-ui/src/mixins/emitter';
+  import Migrating from 'kpl-ui/src/mixins/migrating';
+  import Menubar from 'kpl-ui/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from 'kpl-ui/src/utils/dom';
 
   export default {
     name: 'ElMenu',

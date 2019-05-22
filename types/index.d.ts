@@ -1,4 +1,4 @@
-export * from './element-ui'
+export * from './kpl-ui'
 
-import * as ElementUI from './element-ui'
+import * as ElementUI from './kpl-ui'
 export default ElementUI
